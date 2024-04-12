@@ -1,4 +1,5 @@
 public class Room {
+    public static Object bookings;
     BookingInfo bookingInfo;
     String roomName;
     Room(String roomName, BookingInfo bookingInfo){

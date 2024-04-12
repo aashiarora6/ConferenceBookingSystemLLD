@@ -9,9 +9,13 @@ public class Duration {
     Time startTime;
     Time endTime;
 
-    Duration(Date date, Time startTime, Time endTime){
-        this.date = date;
-        this.startTime = startTime;
-        this.endTime = endTime;
+    Duration(int roomNumber, String startTime2, String endTime2){
+        this.date = roomNumber;
+        this.startTime = startTime2;
+        this.endTime = endTime2;
+    }
+
+    public Duration(int roomNumber, String startTime2, String endTime2) {
+        //TODO Auto-generated constructor stub
     }
 }
